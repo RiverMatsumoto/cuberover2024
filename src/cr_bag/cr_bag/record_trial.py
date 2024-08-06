@@ -27,6 +27,7 @@ class BagRecorder(Node):
             "/imu",
             "/absolute_orientation",
             "/differential_drive_controller/cmd_vel",
+            "/differential_drive_controller/odom"
             "/joint_states"
         ]
 

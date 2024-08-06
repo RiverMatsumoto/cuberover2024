@@ -6,8 +6,8 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wno-unused-parameter -Wno-unused-function)
 endif()
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
+# set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2")
+# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
 
 set(THIS_PACKAGE_INCLUDE_DEPENDS
   # start ros2 control required

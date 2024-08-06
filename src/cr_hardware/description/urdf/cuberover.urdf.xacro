@@ -5,7 +5,7 @@
   <xacro:arg name="use_mock_hardware" default="false" />
   <xacro:arg name="debug" default="false" />
   <xacro:arg name="serial_port" default="/dev/ttyACM0" />
-  <xacro:arg name="baud_rate" default="/dev/ttyACM0" />
+  <xacro:arg name="baud_rate" default="115200" />
   <xacro:arg name="wheel_radius" default="0.15" />
 
   <xacro:include filename="$(find cr_hardware)/urdf/diffbot_description.urdf.xacro" />
